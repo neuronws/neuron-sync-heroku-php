@@ -1,0 +1,26 @@
+{
+    "name": "neuronws/neuron-sync-heroku",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "Synchronizes the filesystem of all dynos in a Heroku app.",
+    "keywords": ["neuron", "sync", "filesystem", "heroku", "synchronize"],
+    "homepage": "http://www.neuron.ws/",
+    "authors": [
+        {
+            "name": "Jonatan Linares",
+            "email": "jlinares@neuron.ws",
+            "homepage": "http://www.neuron.ws/",
+            "role": "Developer"
+        }
+    ],
+    "bin": [
+        "neuron_sync_boot.sh",
+        "bin/neuron_sync_setup",
+        "bin/neuron_sync_watch"
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "ln -s /app/vendor/bin/neuron_sync_boot.sh /app/.profile.d/neuron_sync_boot.sh"
+        ]
+    }
+}
