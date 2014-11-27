@@ -14,13 +14,13 @@
         }
     ],
     "bin": [
-        "neuron_sync_boot.sh",
-        "bin/neuron_sync_setup",
-        "bin/neuron_sync_watch"
+        "nws_sync_boot.sh",
+        "bin/nws_sync_setup",
+        "bin/nws_sync_watch"
     ],
     "scripts": {
         "post-install-cmd": [
-            "ln -s /app/vendor/bin/neuron_sync_boot.sh /app/.profile.d/neuron_sync_boot.sh"
+            "ln -s /app/vendor/bin/nws_sync_boot.sh /app/.profile.d/nws_sync_boot.sh"
         ]
     }
 }
