@@ -13,15 +13,9 @@
         }
     ],
     "bin": [
-        "nws_sync_install.sh",
         "nws_sync_boot.sh",
         "nws_sync_watch_boot.sh",
         "bin/nws_sync_setup",
         "bin/nws_sync_watch"
-    ],
-    "scripts": {
-        "post-install-cmd": [
-            "vendor/bin/nws_sync_install.sh"
-        ]
-    }
+    ]
 }
