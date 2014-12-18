@@ -22,10 +22,16 @@ $ php composer.phar require neuronws/neuron-sync-heroku "*"
 
 ### Step 2: Configure boot
 
-Create the file `nws_sync.sh` with the next contents:
+Create the file `<app_root_path>/.profile.d/nws_sync.sh` with the content:
 
 ``` bash
 /app/vendor/bin/nws_sync_boot.sh
+```
+
+And set exec permission:
+
+``` bash
+chmod +x nws_sync.sh
 ```
 
 ### Step 3: Set config vars
