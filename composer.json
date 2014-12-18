@@ -14,8 +14,8 @@
         }
     ],
     "bin": [
-        "nws_sync_boot.sh",,
-        "nws_sync_watch_boot.sh"
+        "nws_sync_boot.sh",
+        "nws_sync_watch_boot.sh",
         "bin/nws_sync_setup",
         "bin/nws_sync_watch"
     ],
