@@ -1,6 +1,5 @@
 {
     "name": "neuronws/neuron-sync-heroku",
-    "version": "0.0.1",
     "type": "library",
     "description": "Synchronizes the filesystem of all dynos in a Heroku app.",
     "keywords": ["neuron", "sync", "filesystem", "heroku", "synchronize"],
