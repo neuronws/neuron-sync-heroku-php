@@ -21,7 +21,7 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "/app/vendor/bin/nws_sync_install.sh"
+            "vendor/bin/nws_sync_install.sh"
         ]
     }
 }
