@@ -5,7 +5,7 @@ Synchronizes the filesystem of all dynos in a Heroku app.
 ## Requisites
 
 - Cedar-14 stack.
-- Origin repo: Bitbucket.
+- Origin repo: Bitbucket or Github.
 
 ## Installation
 
